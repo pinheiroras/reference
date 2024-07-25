@@ -70,6 +70,7 @@ Migrate: Will read the migrations files and create the actual database and table
 
 ```python
 ~$  python manage.py runserver  => ex.  http://127.0.0.1:8000
+~$  python manage.py runserver 172.16.0.95:8000  #run server in other port
 ```
 
 ### Requirements
